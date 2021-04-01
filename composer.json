@@ -1,0 +1,15 @@
+{
+    "name": "aslam/response",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aslam",
+            "email": "iupin5212@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0"
+    }
+}
