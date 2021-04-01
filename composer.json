@@ -1,5 +1,6 @@
 {
   "name": "aslam/response",
+  "description": "Wrap Guzzle Response",
   "type": "library",
   "license": "MIT",
   "authors": [
