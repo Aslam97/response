@@ -42,9 +42,9 @@ class Response implements ArrayAccess
      *
      * @return string
      */
-    public function body(string $body = '')
+    public function body()
     {
-        return $body ?? (string) $this->response->getBody();
+        return (string) $this->response->getBody();
     }
 
     /**
