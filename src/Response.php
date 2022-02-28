@@ -57,7 +57,7 @@ class Response implements ArrayAccess
     public function toJson($key = null, $default = null)
     {
         if (!$this->decoded) {
-            $this->decoded = array_merge(json_decode($this->body(), true));
+            $this->decoded = json_decode($this->body(), true);
         }
 
         if (is_null($key)) {
