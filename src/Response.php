@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Http\Client;
+namespace Aslam\Response;
 
 use ArrayAccess;
 use Illuminate\Support\Collection;
