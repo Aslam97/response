@@ -54,7 +54,7 @@ class Response implements ArrayAccess
      * @param  mixed  $default
      * @return mixed
      */
-    public function toJson($key = null, $default = null)
+    public function json($key = null, $default = null)
     {
         if (!$this->decoded) {
             $this->decoded = json_decode($this->body(), true);
@@ -85,7 +85,7 @@ class Response implements ArrayAccess
      */
     public function collect($key = null)
     {
-        return Collection::make($this->toJson($key));
+        return Collection::make($this->json($key));
     }
 
     /**
